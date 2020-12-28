@@ -1,0 +1,17 @@
+<div class="row mx-auto" id="newmassage">
+  <div class="col-sm-12 text-center p-5">
+    <p>Konu Başlığı</p>
+    <input [(ngModel)]="header" class="form-control form-control-md my-2" type="text" placeholder="" aria-label=".form-control-lg example">
+    <br>
+    <p>İçerik</p>
+    <textarea [(ngModel)]="content"></textarea>
+    <button (click)="postmassage()" class="btn-lg btn-success my-3 mx-3">Ekle</button>
+  </div>
+</div>
+<div class="row mx-auto my-4" id="outbox">
+  <div class="row my-3 mx-auto p-3" id="massagebox" *ngFor="let blogmassage of blogList">
+    <h3>{{blogmassage.header}}</h3> <div class="col-sm-11 mx-5"><i class="fas fa-times-circle "></i></div>
+    <br>
+    <p>{{blogmassage.content}}</p>
+  </div>
+</div>

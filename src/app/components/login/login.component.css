@@ -1,0 +1,16 @@
+.col-sm-4{
+  background-color: rgba(58,53,56,0.38);
+  border-radius: 60px;
+}
+.col-sm-4 p{
+  color: white;
+  font-size: x-large;
+}
+.col-sm-4 button{
+  width: 50%;
+}
+.button{
+  color: white;
+  background-color: red;
+}
+

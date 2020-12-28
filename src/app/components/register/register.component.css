@@ -1,0 +1,11 @@
+.col-sm-4{
+  background-color:cornflowerblue;
+  border-radius: 60px;
+}
+.col-sm-4 p{
+  font-size: x-large;
+}
+.col-sm-4 button{
+  width: 50%;
+}
+

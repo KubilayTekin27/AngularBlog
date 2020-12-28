@@ -1,0 +1,14 @@
+<div class="row my-5">
+
+    <div class="col-sm-4 mx-auto my-3 p-5 text-center"><p>Kullanıcı Adı
+      <input [(ngModel)]="username" class="form-control form-control-lg my-2 mb-4" type="text" placeholder="" aria-label=".form-control-lg example">
+    </p>
+      <hr>
+      <p>Şifre
+        <input [(ngModel)]="password" class="form-control form-control-lg my-2" type="password" placeholder="" aria-label=".form-control-lg example">
+      </p>
+      <button (click)="onLogin()" type="button" class="btn-lg btn-success my-3 mx-3" >Giriş Yap</button>
+      <br>
+      <a routerLink="/register" style="color: blue ; font-size: x-large">Hesabınız Yok Mu ?</a>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+.row{
+  color: white;
+}
+#massagebox{
+  background-color: cornflowerblue;
+  width: 90%;
+  border-radius: 31px;
+  text-align: center;
+}
+#outbox{
+  background-color: rgba(0,0,0,0.4);
+  max-height: 600px;
+  overflow-y: scroll;
+  width: 80%;
+}
+#newmassage{
+  width: 60%;
+  background-color:black;
+  border-radius: 60px;
+}
+#newmassage input{
+  text-align: center;
+}
+#newmassage textarea{
+  width: 100%;
+}
+.col-sm-12 button{
+  width: 40%;
+}
+i {
+  right: 0;
+  font-size: xx-large;
+}
+.col-sm-11{
+  text-align: right;
+}
